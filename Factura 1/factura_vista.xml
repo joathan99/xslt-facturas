@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="900" viewBox="0 0 800 900">
+  <!-- Fondo principal -->
+  <rect width="800" height="900" fill="white" stroke="#ccc" stroke-width="1"/>
+  
+  <!-- Titulo de la Factura -->
+  <text x="400" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50">FACTURA</text>
+  
+  <!-- Información de la factura -->
+  <text x="650" y="80" text-anchor="end" font-family="Arial" font-size="14" fill="#333">Factura Nº: 2024-001</text>
+  <text x="650" y="100" text-anchor="end" font-family="Arial" font-size="14" fill="#333">Fecha: 10/03/2024</text>
+  
+  <!-- Datos del Emisor -->
+  <text x="50" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#2c3e50">Datos del Emisor</text>
+  <line x1="50" y1="160" x2="350" y2="160" stroke="#eee" stroke-width="1"/>
+  <text x="50" y="180" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">Empresa:</tspan> Empresa A, S.L.</text>
+  <text x="50" y="200" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">CIF:</tspan> B12345678</text>
+  <text x="50" y="220" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">Dirección:</tspan> Av. Principal 123</text>
+  <text x="50" y="240" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">Ciudad:</tspan> Madrid, 28001</text>
+  <text x="50" y="260" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">País:</tspan> España</text>
+  
+  <!-- Datos del Receptor -->
+  <text x="450" y="150" font-family="Arial" font-size="18" font-weight="bold" fill="#2c3e50">Datos del Cliente</text>
+  <line x1="450" y1="160" x2="750" y2="160" stroke="#eee" stroke-width="1"/>
+  <text x="450" y="180" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">Cliente:</tspan> Cliente B, S.A.</text>
+  <text x="450" y="200" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">CIF:</tspan> B87654321</text>
+  <text x="450" y="220" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">Dirección:</tspan> Calle Secundaria 456</text>
+  <text x="450" y="240" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">Ciudad:</tspan> Barcelona, 08002</text>
+  <text x="450" y="260" font-family="Arial" font-size="14" fill="#333"><tspan font-weight="bold">País:</tspan> España</text>
+  
+  <!-- Tabla de Conceptos -->
+  <text x="50" y="320" font-family="Arial" font-size="18" font-weight="bold" fill="#2c3e50">Conceptos Facturados</text>
+  <line x1="50" y1="330" x2="750" y2="330" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Cabecera de la tabla -->
+  <rect x="50" y="350" width="700" height="30" fill="#f9f9f9"/>
+  <line x1="50" y1="380" x2="750" y2="380" stroke="#ddd" stroke-width="2"/>
+  <text x="70" y="370" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Descripción</text>
+  <text x="350" y="370" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Cantidad</text>
+  <text x="450" y="370" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Precio Unit.</text>
+  <text x="550" y="370" font-family="Arial" font-size="14" font-weight="bold" fill="#333">IVA</text>
+  <text x="700" y="370" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Subtotal</text>
+  
+  <!-- Fila de concepto -->
+  <line x1="50" y1="410" x2="750" y2="410" stroke="#eee" stroke-width="1"/>
+  <text x="70" y="400" font-family="Arial" font-size="14" fill="#333">Servicio de consultoría</text>
+  <text x="350" y="400" font-family="Arial" font-size="14" fill="#333">10</text>
+  <text x="450" y="400" font-family="Arial" font-size="14" fill="#333">50,00 €</text>
+  <text x="550" y="400" font-family="Arial" font-size="14" fill="#333">21%</text>
+  <text x="700" y="400" text-anchor="end" font-family="Arial" font-size="14" fill="#333">500,00 €</text>
+  
+  <!-- Base imponible -->
+  <line x1="50" y1="440" x2="750" y2="440" stroke="#eee" stroke-width="1"/>
+  <text x="600" y="430" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Base imponible</text>
+  <text x="700" y="430" text-anchor="end" font-family="Arial" font-size="14" fill="#333">500,00 €</text>
+  
+  <!-- IVA -->
+  <line x1="50" y1="470" x2="750" y2="470" stroke="#eee" stroke-width="1"/>
+  <text x="600" y="460" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#333">IVA (21%)</text>
+  <text x="700" y="460" text-anchor="end" font-family="Arial" font-size="14" fill="#333">105,00 €</text>
+  
+  <!-- Total -->
+  <line x1="50" y1="500" x2="750" y2="500" stroke="#ddd" stroke-width="2"/>
+  <text x="600" y="520" text-anchor="end" font-family="Arial" font-size="16" font-weight="bold" fill="#333">TOTAL</text>
+  <text x="700" y="520" text-anchor="end" font-family="Arial" font-size="16" font-weight="bold" fill="#333">605,00 €</text>
+  
+  <!-- Pie de página -->
+  <line x1="50" y1="600" x2="750" y2="600" stroke="#eee" stroke-width="1"/>
+  <text x="400" y="630" text-anchor="middle" font-family="Arial" font-size="12" fill="#777">Esta factura sirve como comprobante legal de la transacción descrita.</text>
+  <text x="400" y="660" text-anchor="middle" font-family="Arial" font-size="12" fill="#777">Empresa A, S.L. - CIF: B12345678 - Av. Principal 123, Madrid 28001, España</text>
+</svg>
