@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="factura_simple.xslt"?>
+<Factura>
+    <Emisor>
+        <Nombre>Moda Elegante S.L.</Nombre>
+        <CIF>B78901234</CIF>
+        <Direccion>Calle de la Moda, 123</Direccion>
+        <CodigoPostal>28001</CodigoPostal>
+        <Ciudad>Madrid</Ciudad>
+        <Pais>España</Pais>
+        <Telefono>912345678</Telefono>
+        <Web>www.modaelegante.ejemplo</Web>
+        <Email>info@modaelegante.ejemplo</Email>
+    </Emisor>
+    <Cliente>
+        <Nombre>Carlos Martínez</Nombre>
+        <NIF>12345678Z</NIF>
+        <Direccion>Avenida del Estilo, 45</Direccion>
+        <CodigoPostal>08002</CodigoPostal>
+        <Ciudad>Barcelona</Ciudad>
+        <Pais>España</Pais>
+    </Cliente>
+    <DatosFactura>
+        <Numero>F2024-0089</Numero>
+        <Serie>A</Serie>
+        <Fecha>2024-03-25</Fecha>
+        <Total>245.80</Total>
+        <Moneda>EUR</Moneda>
+    </DatosFactura>
+    <Articulos>
+        <Articulo>
+            <Descripcion>Chaqueta de Cuero Premium</Descripcion>
+            <Talla>M</Talla>
+            <Color>Marrón</Color>
+            <Cantidad>1</Cantidad>
+            <PrecioUnitario>120.00</PrecioUnitario>
+            <Subtotal>120.00</Subtotal>
+        </Articulo>
+        <Articulo>
+            <Descripcion>Camisa de Lino</Descripcion>
+            <Talla>L</Talla>
+            <Color>Blanco</Color>
+            <Cantidad>2</Cantidad>
+            <PrecioUnitario>45.00</PrecioUnitario>
+            <Subtotal>90.00</Subtotal>
+        </Articulo>
+        <Articulo>
+            <Descripcion>Cinturón de Cuero</Descripcion>
+            <Talla>95</Talla>
+            <Color>Negro</Color>
+            <Cantidad>1</Cantidad>
+            <PrecioUnitario>35.80</PrecioUnitario>
+            <Subtotal>35.80</Subtotal>
+        </Articulo>
+    </Articulos>
+    <Pago>
+        <Metodo>Tarjeta de crédito</Metodo>
+        <NumeroTarjeta>**** **** **** 5678</NumeroTarjeta>
+    </Pago>
+    <Observaciones>Gracias por su compra. Los artículos tienen 30 días de garantía. Para devoluciones, conserve este recibo y el embalaje original.</Observaciones>
+</Factura>
